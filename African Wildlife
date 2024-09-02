@@ -1,1 +1,659 @@
 
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>African Wildlife</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+.mySlides {display: none;}
+img {
+  border-radius: 8px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.3s;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+  .div {
+   margin-left:200px;
+   margin-right:200px;
+}
+</style>
+</head>
+<body bgcolor="#c4bb93"><div class="w3-top">
+  <div class="w3-bar w3-black w3-card ">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+<a href="C:\Users\RAJAL MISTRY\OneDrive\Documents\project1{part 2}.html" class="w3-bar-item w3-button w3-padding-large">PAGE 2</a>
+    
+    <div class="w3-dropdown-hover w3-hide-small">
+
+<button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#slideshow" class="w3-bar-item w3-button">Slideshow</a> 
+        <a href="#External links" class="w3-bar-item w3-button">External links</a>
+        
+      </div>
+ </div>
+  <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div> </div>
+
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+<a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+</div>
+<br>
+
+<!--image header-->
+<header class="w3-display-container w3-wide w3-pale-yellow" id="home">
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white w3-center" style="margin-right:30px;
+	margin-left: 30px;">
+  <div class="w3-display-topright w3-padding-large w3-large w3-center">
+   <img class="w3-image" src="https://i.pinimg.com/736x/2e/83/45/2e834565b1d1513b89864ce9231ae098--african-history-african-art.jpg" height="180" width="180" ></img>
+  </div>
+ <img class="w3-image" src="https://nywildfilmfestival.com/wp-content/uploads/2017/09/grey-crowned-crane-bird-crane-animal-45853.jpg" alt="LOGO" width="1080px" height="150px00">
+    <div class="w3-display-topmiddle w3-padding-large w3-transparent"><font size="600">
+   <br>   <u><b><b>AFRICAN WILDLIFE</b></b></u></font>
+</div></div>
+  </header>
+
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- The home Section -->
+  <div class="w3-container w3-content w3-padding-500px" style="max-width:6000px " id="home"><br>
+<div class="w3-center">
+    <h2 class="w3-wide"><b><u> Great wildlife species to Africa </b></u></h2>
+    <p class="w3-opacity" size="3"><i>We love animals</i></p>
+    <p  class="w3-text-black" size="60"> </div>
+Africa’s animal-filled plains and forests live on. The vast wilderness areas are home to the earth’s biggest concentrations of large mammals, from elephants and giraffes to hippos and zebras, to lions, leopards and cheetahs.
+<BR>
+
+For a lot of people who decide to visit Africa their main interest is to view the Wildlife. No other continent offers the same opportunities to see such diverse spectrum of wildlife often in very close proximity.
+<BR>
+Learning a little about the animals you may see before you travel will enhance your wildlife viewing experience greatly.
+<BR>
+Most people who safari in Africa hope to see the "BIG 5". The Big Five refers to five of Africa's greatest wild animals - Lion, Leopard, Elephant, Buffalo and Rhino..</p><br><br>
+ 
+<div class="w3-pale-yellow w3-padding-32 ">
+
+<font face="lucas" size="4"><b><b><h2 class="w3-wide w3-center"><b>*Did you know?</b></h2></b></b>
+<p class="w3-text-black"
+align="left" class="w3-justify w3-opacity"> <u><h5 class="w3-center"><b>Some interesting facts about African Wildlife</u></b><br><br>
+There are over 1,100 different species of mammals in Africa and over 2,600 species of birds.
+<BR>
+Four of the five fastest land animals live in Africa - fastest is the cheetah at 70 mph, wildebeest, lion and Thomson's gazelle all about 50 mph.</h5><br>
+<br> <ul type="circle"><li>
+<b>Butterfly</b><br>
+Having a wingspan of only ½", the smallest butterfly in the world is found in South Africa. It is know as the Dwarf Blue Butterfly.</li>
+<br><li>
+<b>Chameleons</b><br>
+Madagascar is the home of the worlds largest as well as the smallest chameleons! Almost half of the worlds chameleon species live on the island of Madagascar.</li>
+<br><li>
+<b>Elephants</b><br>
+The African elephant is the largest living land mammal.
+An elephant can weigh 6 - 7 tons and has no natural enemies.
+An elephant drinks up to 160 liters of water per day.
+An African elephant possesses such "manual" dexterity in his/her trunk tip that he/she can actually turn the pages of a book with it.</li>
+<br><li>
+<b>Fish</b><br>
+The only place where shoals of fresh water sardines are found is in Lake Tanganyika.
+</li><br><li>
+<b>Frogs</b><br>
+The world's biggest frog is found in the Cameroon. Named the goliath frog, their body can be one-foot long.</li>
+<br><li>
+<b>Giraffes</b><br>
+The tongue of a giraffe can be as long as 45cm.
+Giraffes have the same number of vertebrae in their necks as humans, seven in total, but much larger.
+Giraffes are 6ft tall when they are born.
+It's thought that the Giraffes neck has grown so long due to the males mating battles. During battle they whip each other with their necks and heads, the winner and eventual mate usually being the one landing the harder blows, enhanced by a slightly longer neck.</li>
+<br><li>
+<b>Goliath Beetle</b><br>
+The world's largest and heaviest beetle, the Goliath Beetle is found in tropical Africa. It can reach a length of 5 inches and weigh up to ¼ lb.
+</li><br><li>
+<b>Gorillas</b><br>
+The Gorilla is the largest of the living primates, male gorillas weigh up to 200kg, yet are shy and retiring vegetarians.</li>
+<br><li>
+<b>Lions</b><br>
+Lions are unique in that they are the only cats to live in groups (prides). They are the largest member of the cat family and the largest of all the African carnivores. They are are the top predator in any African ecosystem where they live. The roar of a lion can be heard over 8 kilometers away.</li>
+<br><li>
+<b>Nile Crocodiles</b><br>
+The Nile crocodile is Africa's largest living reptile - growing to an average length of 5m.
+</li><br><li>
+<b>Penguins</b><br>
+South Africa has a penguin colony, which thrives thanks to the cold Antarctic currents on the west coast near the Cape.</li>
+<br><li>
+<b>Seals</b><br>
+The largest seal colony in the southern hemisphere is at Cape Cross in Namibia.</li></p></font>
+ </div>
+</div>
+<div class="w3-center">
+<font class="w3-hover-text-red" color="darkred">
+<a href="C:\Users\RAJAL MISTRY\OneDrive\Documents\project1{part 2}.html"><h2><b>Let's learn more about AFRICA</h2></a></font></b><br>
+ <!-- Automatic Slideshow Images --><div class="w3-pale-green w3-center"><br>
+<div class="slideshow-container" id="slideshow">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 /5</div>
+  <img src="https://financialtribune.com/sites/default/files/field/image/17january/13_brief_45.jpg" style="width:65%" height:"500">
+  <h3>PENGUIN</h3>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="https://www.petlandtexas.com/wp-content/uploads/2020/01/Petland_Texas_Freshwater_African_Butterflyfish.jpg" style="width:55%" height:"500">
+  <h3>FISH</h3>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="http://greenwings.co/wp-content/uploads/2014/09/C-hebe-Mandawe-Dec-06.jpg" style="width:48%" height:"500">
+  <h3>BUTTERFLY</h3>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="http://2.bp.blogspot.com/_fP1y4T5-DFE/TT4yAI3JbPI/AAAAAAAAFKE/rjYI2SkIyok/s1600/Anticipation+Cheetahs+Africa.jpg" style="width:49%" height:"500">
+  <h3>LEOPARD </h3>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="https://i1.wp.com/blog.bookyourhunt.com/wp-content/uploads/2020/02/16_buffalo_4.jpg?fit=1200%2C674&ssl=1" style="width:65%" height:"500">
+  <h3>BUFFALO </h3>
+</div>
+</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+<span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 3 seconds
+}
+</script>
+
+
+
+    </div>
+  </div>
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-card w3-black w3-padding-84" style="max-width:1200px" id="contact">
+   <font color="white"> <br><h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom ">
+        <i class="fa fa-map-marker" style="width:30px"></i> Maharashtra,India<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div><br>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-red w3-section w3-right" type="submit"><a href="C:\Users\RAJAL MISTRY\OneDrive\Documents\p3.html">SEND</a></button>
+        </form>
+      </div>
+    </div>
+  </div><div class="w3-pale-blue w3-center"> <h1 class="w3-text-black"><b><b>Fauna Of Africa</b></b></h1></div><div class=" w3-center">
+<img src="https://worlderingaround.com/wp-content/uploads/2018/09/african-safari-animals-kenya-masai-mara-28-1024x683.jpg" width="400" height="300">
+<img src="https://www.tripsavvy.com/thmb/ehnDSuNmJYC_TkYlmorCWRkXjrc=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-200571828-001-57b6d0f45f9b58cdfd5cfe75.jpg" width="400" height="300">
+<img src="https://www.masaimaramigration.com/wp-content/uploads/2020/01/rwanda-gorilla-volcanoes-males-1024x640.jpg" width="400" height="300"><br>
+<img src="http://hdwallpapers2013.com/wp-content/uploads/2012/09/african-lion-king-animals.jpg" width="400" height="300">
+<img src="http://4.bp.blogspot.com/-cI_xGP3b3GU/UhHHkTUjoYI/AAAAAAAAGZo/7dxJQdoKIbs/s1600/Crocodile-African-2013-01.jpg" width="400" height="300">
+<img src="https://natureworldtoday.com/wp-content/uploads/2018/02/Cheetah-moves-2.-Cheetah-at-Zimanga-private-game-reserve-Zuluand.-Pic-by-Charl-Senekal-1180x800-1.jpg" width="400" height="300">
+
+ </div>
+<!-- End Page Content --> 
+
+<div class="w3-container w3-card w3-padding-60 w3-center w3-pale-yellow w3-large" id="External links">
+<h1><b><font face="lucida"><marquee behaviour="scroll" direction="right">*Quick Links...</marquee></h1></b>
+<font color="black">
+<h4><ul type="square"><li>
+<font class="w3-hover-text-red"><a href="https://www.youtube.com/watch?v=HyTgc5Jcy5A">African Safari</a></font></li><li>
+<font class="w3-hover-text-green"><a href="https://www.youtube.com/watch?v=K9PEG5SoAjI"> Tour to wildlife safaris</a></font></li><li>
+<font class="w3-hover-text-purple"><a href="https://www.bing.com/videos/search?q=african+wildlife&&view=detail&mid=AD4AE39D3820A6A5FA3EAD4AE39D3820A6A5FA3E&&FORM=VRDGAR"> Bests of Africa</a></font></li><li>
+<font class="w3-hover-text-yellow"><a href="https://www.bing.com/videos/search?q=african+wildlife&&view=detail&mid=7815F4E12F5B8EF3C6477815F4E12F5B8EF3C647&&FORM=VRDGAR&ru=%2Fvideos%2Fsearch%3Fq%3Dafrican%2520wildlife%26%26FORM%3DVDVVXX">Amazing facts about Africa</a></font></li><li>
+<font class="w3-hover-text-blue"><a href="https://www.bing.com/videos/search?q=african+wildlife&&view=detail&mid=138A53BAB5AF00EB100A138A53BAB5AF00EB100A&&FORM=VRDGAR&ru=%2Fvideos%2Fsearch%3Fq%3Dafrican%2520wildlife%26%26FORM%3DVDVVXX"> Wildlife Sancturies </a></li>
+</h4></font></font></font>
+</div>
+<!-- Footer -->
+<footer class="w3-container w3-padding-54 w3-center w3-khaki w3-xlarge" ><br>
+ <font class="w3-hover-text-blue"> <i class="fa fa-facebook-official w3-hover-opacity"></i></font>
+ <font class="w3-hover-text-purple"> <i class="fa fa-instagram w3-hover-opacity"></i></font>
+ <font class="w3-hover-text-yellow"> <i class="fa fa-snapchat w3-hover-opacity"></i></font>
+ <font class="w3-hover-text-red"> <i class="fa fa-pinterest-p w3-hover-opacity"></i></font>
+ <font class="w3-hover-text-blue"> <i class="fa fa-twitter w3-hover-opacity"></i></font>
+ <font class="w3-hover-text-green"> <i class="fa fa-linkedin w3-hover-opacity"></i></font><font class="w3-hover-text-blue">
+  <p class="w3-medium">Powered by African Wildlife</p><br>
+</footer> </font></font>
+</body>
+</html>
+_________________________________________________________________________________________________________________________________________________________
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Learn more about top Wild African Animals</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+	.button {
+			background-color: green;
+			padding: 5px 15px ;
+			color: white;
+			text-align: center;
+			display: inline-block;
+			font-size: 20px;
+			cursor: pointer;
+		}
+
+.img {
+	border-radius: 15px ;
+	}
+.div {
+	margin-right:100px;
+	margin-left: 80px;
+}
+.cards {
+	background-color:#EDC9D3 ;
+}
+.card {
+	background-color:#EBCBC6;
+	display: inline-block;
+}
+.card2 {
+	background-color:#492A2D;
+	
+}
+.card3 {
+	background-color:#ffcccc ;
+	}
+.card4 {
+	background-color:#FCE8D6 ;
+}
+.card5 {
+	background-color:#DBBDBC ;
+	}
+.card6 {
+	background-color:#DAB8C6 ;
+	}
+.card7 {
+	background-color:#F2CEEB ;
+	}
+.card8 {
+	background-color:#FDB3C1 ;
+	}
+</style>
+</head><body bgcolor="#d6a9a9">
+<div class="w3-top">
+  <div class="w3-bar w3-text-white card2 w3-card "> 
+<a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+<center>
+<a href="C:\Users\RAJAL MISTRY\OneDrive\Documents\project1.html" class="w3-bar-item w3-button w3-padding-large"><h5>HOME</h5></a>
+ <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><h5>CONTACT</h5></a>
+ <a href="#External links" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><h5>EXTERNAL LINKS</h5></a>
+<a href="#" class="w3-bar-item  w3-padding-large w3-hide-small"></a>
+ <a href="#" class="w3-bar-item  w3-padding-large w3-hide-small"></a>
+  <a href="#" class="w3-bar-item  w3-padding-large w3-hide-small"></a>
+  <a href="#" class="w3-bar-item w3-padding-large w3-hide-small"></a>
+  <a href="#" class="w3-bar-item  w3-padding-large w3-hide-small"></a>
+    </center>
+<a class="w3-bar-item w3-padding-large  w3-hide-small"><center><b><h3><b>AFRICAN WILDLIFE</b></h3></b></center></a>
+ <div class="w3-display-topright w3-padding-large w3-large w3-center">
+   <img class="w3-image" src="https://i.pinimg.com/736x/2e/83/45/2e834565b1d1513b89864ce9231ae098--african-history-african-art.jpg" height="60" width="70" ></img>
+      <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div> </div>
+
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+<a href="#External links" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">External links</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+<a class="w3-bar-item w3-padding-large"><H3>AFRICAN SAFARI</H3></a>
+ <div class="w3-display-topright w3-padding-large w3-xlarge w3-center">
+   <img class="w3-image" src="https://i.pinimg.com/736x/2e/83/45/2e834565b1d1513b89864ce9231ae098--african-history-african-art.jpg" height="60" width="70" ></img>
+ </div>
+</div>
+</div>	
+      
+<header class="w3-container w3-wide w3-center">
+
+<div class="bgimg w3-container w3-pale-yellow">
+
+<img class="w3-image" src="https://image.freepik.com/free-photo/big-male-sphinx-monkey_266258-20.jpg" alt="animals" width="800" height="200">
+</div>
+
+<font size="25"><div class="w3-display w3-container w3-center card3">
+<h1><u><b>Welcome to wildlife safari of<i> Africa!</b></u></i></h1></font></div>
+
+  </header>
+<hr>
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px;margin-right:50px;
+	margin-left: 50px">
+
+<p  class="w3-text-black" size="10"> 
+
+<div class="w3-container w3-card w3-pale-red "><br>
+<div class="card w3-container w3-card">
+<div class="w3-container w3-light-grey">
+<center>
+<h2><b>Finding Top Wild African Animals</b></h2>
+</center></div>
+<br>
+If you are planning a special trip to view Africa’s diverse variety of wildlife, the question of where to travel to view them is an important one to ask. There are particular areas of Africa that are very popular as African safari destinations. These countries/areas include:
+<br>
+<b>Botswana –</b> It has a variety of national parks and a modern approach to wildlife conservation.
+<br<b>Kenya – </b>Probably the most popular country to visit for safaris with 25 national parks, 16 national reserves, 6 marine parks and reserves, and more.
+<br><b>Malawai –</b> Though a very small country, it houses Lake Malawi National Park, which covers about a third of the country. This biodiverse lake region features 200 mammal <br>species (including big cats, elephants, hippos, monkeys, and more), 650 species of bird, and over 5,500 plants.
+<br><b>Namibia –</b> It’s one of the least populated countries in the world, but has 12 national parks, plus other reserves and protected areas one can explore.
+<br><b>Rwanda –</b> Besides offering many opportunities to view the Big 5, there are 10 habituated gorilla families in Rwanda’s Volcanoes National Park. Tours allow groups of 8 to view these gorillas in their habitat, which is a life-changing experience.
+<br><b>South Africa –</b> It’s one of the most affordable destinations for safaris due to the development of major city hubs like Cape Town, Johannesburg, and Durban. Tourists can find cheaper accommodations and touring packages.
+<br><b>Tanzania – </b>This country ranks only 2nd to Kenya in popularity due to its 16 national parks, 3 game reserves, and 2 marine reserves. One can also witness the famous wildebeest migration.
+<br><b>Uganda –</b> It’s home to 365 mammal species, 1100 bird species, and Africa’s tallest mountain range. Tourists can also view the largest free-standing volcano in the world, the second-largest freshwater lake, and the headwaters of the world’s longest river.
+<br><b>Zambia – </b>This country is increasing in popularity because of conservation efforts, improvement in its economy and infrastructure, and its beautiful 20 national parks.
+<br><b>Zimbabwe –</b> While its reputation was tarnished by the dictator Robert Mugabe since he was ousted in 2017, tourism has improved in this country. It’s home to Victoria Falls, as well as up to 100 species of mammals (including endangered Cape wild dogs) and 400 species of birds.
+<br><br>
+</div>
+
+
+
+<br><br>
+<div class="w3-container w3-light-grey w3-card ">
+<center><h2><b>The Best Locations by Animal:</b></h2></center></div>
+<div class="w3-container w3-card cards">
+<b>Giraffe: </b>Masai giraffes in the Serengeti region; Rothschild’s giraffe in Uganda’s Murchison Falls National Park.
+<br><b>Cheetah: </b>Kenya’s Masai Mara National Reserve and Namibia’s Okonjima Game Reserve.
+<br><b>Hippopotamus:</b> Zambia’s South Luangwa National Park and the Okavango Delta in Botswana.
+<br><b>Crocodile:</b> Nile crocodiles can be seen in the Mara River of East Africa during the annual migration of wildebeests and zebras.
+<br><b>Zebra:</b> The Serengeti region or the Masai Mara during migration season; Grévy’s Zebra in northern Kenya’s Lewa Wildlife Conservancy.
+<br><b>Wild Dog: </b>Tanzania’s Ruaha National Park, South Africa’s Madikwe Game Reserve, and Zimbabwe’s Hwange National Park.<br><br></div>
+<br><br>
+<div class="w3-light-grey w3-center w3-card w3-container"><h2><b>
+The Most Dangerous African Animals Today</b></h2></div>
+<div class="w3-container w3-card card4">
+<br>
+Land animals in Africa are popular attractions for safari enthusiasts, although they are not always treated with caution and respect. Many dangerous African animals are among the most dangerous in the world after human beings, whether hostile or poisonous. It’s of the utmost importance to research the most reputable safaris so that your safety is relatively sure. In general, it’s rare to go get injured on an African safari, though possible–the chances are roughly 1 in 80,000. While elephants and hippos are considered the most dangerous, lions and leopards are also animals to be cautious of when touring.
+<br>
+The riskiest type of activity is the walking safari. You should only go out with a trained guide, who may or may not be armed. If he is not, it is typical for an armed park ranger to also be present. If the guide seems unprofessional, it is advisable to back out of the excursion.
+<br>
+Fortunately, the most dangerous African animals can be safely seen in national parks and game reserves. The top 10 most dangerous African animals and their estimated number of human deaths per year are:
+
+<br>
+
+Hippos are highly aggressive and unpredictable, and often charge other animals or even humans.
+
+<br>
+<br><b>Mosquito:</b> Causes diseases including Malaria, Yellow Fever, Zeka Virus, West Nile Virus, and Dengue Fever; 1,000,000 deaths.
+<br><b>Hippopotamus:</b> Territorial and weighs up to 1,500kg, making it the third-largest animal after the elephant and rhino; 3,000 deaths.
+<br><b>African Elephant:</b> Largest land animal; weighs up to 7,000kg and is unpredictable; tramples victims; 500 deaths.
+<br><b>Nile Crocodile:</b> Aggressive, fatal attacks; 300 deaths.
+<br><b>Lion:</b> Apex predator; kills locals during their daily lives or on the fringes of game reserves; 200 deaths.
+<br><b>Cape Buffalo:</b> Nicknamed “widowmaker” and “black death”; fearless, aggressive, and unpredictable; will stalk and kill humans if alone; tramples and gores victims to death; weighs up to 1,000kg; 200 deaths.
+Great White Shark: </b>Most aggressive shark towards humans; charges at prey up to 40km an hour before taking a large bite; humans die from blood loss in 20 percent of cases; 2 deaths.
+<br><b>Rhinoceros:</b> Weighs up to 2,800kg and second largest animal after the elephant; irritable, and charges with long, sharp horns up to 64km an hour when threatened; unknown.
+<br><b>Puff Adder:</b> Not the most venomous snake but causes the most fatalities due to its wide habitat range, camouflage colors, and aggressiveness; 20 percent fatality rate from untreated bites; unknown.
+<br><b>Black Mamba: </b>Largest venomous snake in Africa, growing up to 2.5m; one of the world’s fastest snakes, moving at 20km an hour; highly aggressive; one of the most venomous snakes in the world with a 100% fatality for untreated bites; unknown.
+<br><br>
+</div>
+
+<div class="w3-container w3-light-grey w3-card w3-center">
+<h2><b>Endangered Animals In Africa</h2></div></b>
+
+<div class="w3-center w3-container w3-card card5">
+<img src="https://s3.amazonaws.com/images.ecwid.com/images/23291383/1311806456.jpg" width="315px" height="300">
+<img src="https://www.southernafrica360.com/wp-content/uploads/2019/06/9933-shutterstock_735452992.jpg" width="315px" height="303">
+<img src="https://thumbs.dreamstime.com/b/fauna-en-%C3%A1frica-cebras-31570052.jpg" width="315px" height="300">
+
+<br>
+
+
+Several species are endangered or vulnerable due to hunting and poaching, particularly large and dangerous animals which are prized as trophies. Endangered animals in Africa include the Black Rhino, White Rhino, Rothschild’s Giraffe, Grévy’s Zebra, (African) Wild Dog, Grey Crowned Crane, and Okapi. Additionally, the Lion, Leopard, Cheetah, and African Forest elephants are vulnerable species.
+<br>
+Bringing these animals back from the point of extinction can be a very difficult process. For example, the Cross River gorilla, a subspecies of the Western gorilla which inhabits the border region in Cameroon and Nigeria, went down to a population 200-300. Female Cross River gorillas only breed 3-4 times in their lifespan and give birth an average of every 4-6 years. This makes their recovery long and tedious, and their protection from poachers and other factors is all-important.<br><br>
+</div>
+<br><br>
+
+<div class="w3-light-grey w3-container w3-card w3-center"><h2><b>
+Birds in Africa</h2></div></b>
+<div class="w3-container w3-card card6 ">
+There are many different types of birds in Africa. In fact, there are 2,341 species of native African birds, and 25 of those species are endemic, meaning you can’t find them anywhere else. Some of the most exotic African birds include the lilac breasted roller, brown snake eagle, Cape Glossy starling, marabou stork, and the African white backed vulture.
+
+<br><br>
+<div class="w3-pale-yellow w3-center"><h3>
+You can find birds all over the African continent. A few iconic species include:</h3></div>
+<br>
+
+
+<div class="w3-center w3-container w3-card">
+<img src="https://i.redd.it/se6r3dgdn3a01.jpg" width=250px" height="210">
+<img src="https://i.pinimg.com/originals/e4/2e/09/e42e098906468b67885cdbd84a3e5825.jpg" width="250px" height="210">
+<img src="https://i0.wp.com/discvr.blog/wp-content/uploads/2020/12/The-beautiful-yet-feisty-Lilac-breasted-roller-bird-Africas-most-colorful-bird-2.png?fit=1600%2C900&ssl=1.jpg" width="250px" height="210">
+<img src="https://images.fineartamerica.com/images-medium-large-5/the-wild-helmeted-guineafowl-in-africa-michal-bednarek.jpg" width="250px" height="210">
+<img src="https://www.aurifil.com/wp-content/uploads/2020/12/AfricanPenguin-1000.jpg" width="250px" height="210">
+</div>
+<br>
+<b>Shoebill: </b>These massive birds are found in swamps and wetlands of Central and East Africa. Shoebills don’t migrate and spend their days hunting in papyrus swamps. You can find them in the Bangweulu Wetlands in northeastern Zambia.
+<br><b>Guinea fowl:</b> There are 6 species of guinea fowl in Africa. They are found across the continent in a variety of habitats.
+<br><b>Secretary bird:</b> Found in sub-Saharan Africa, these birds of prey prefer to hunt on the ground. It is common to see them in Kgalagadi Transfrontier Park.
+<br><b>Common Ostrich: </b>Perhaps Africa’s most well-known bird species. Breeding season is the best time to see large flocks of Ostriches, from March to September. They are found in the savannas, woodlands, and deserts of Southern Africa and across Western Africa to the horn of Africa. They can be seen in many African parks and game reserves, including Kruger National Park and Chobe National Park.
+<br><b>African Penguins:</b> You can see African penguins along the southeastern coast of Africa and surrounding islands. The best time to see them is from November to August. They are most active at dusk and dawn. A popular viewing destination for African penguins is Boulders Beach in Simons Town, South Africa.
+<br><b>Hornbills:</b> There are 24 species of hornbill found in Africa. You can see arboreal and terrestrial species in African savannas, rainforests, and woodlands. Find Southern Ground Hornbills in Mapungubwe or Kruger National Park.
+
+<br><br>
+</div>
+<div class="w3-light-grey w3-container w3-card w3-center"><h2><b>
+Types of African Fish</h2></div></b>
+
+<div class="w3-center w3-container w3-card card7">
+<img src="https://i.pinimg.com/originals/51/06/c0/5106c06de4c0a374d14a0ab03394ff11.jpg" width="275px" height="270">
+<img src="https://east-africa-diving.com/wp-content/uploads/2020/09/EastAfricaDiving_Zanzibar_reefdivingphotos_5997.jpg" width="275px" height="270">
+<img src="https://www.wallpaperama.com/post-images/wallpapers/fish/african-fish.jpg" width="275px" height="270">
+
+<br><br>
+
+Africa is home to an abundance of freshwater and marine fish. There are hundreds of freshwater lakes and rivers in Africa. Some of the most notable are the African Great Lakes, a system of 7 lakes in East, South, and Central Africa. These lakes are known for their cichlid populations. One of the great lakes, Lake Malawi is an especially popular fishing destination, with over 1,000 species of fish. Fishing in Lake Malawi is best between September and April, but underwater viewing is best between May and October.
+
+<br>
+
+With Western Africa bordering the Atlantic Ocean, and Eastern Africa the Indian Ocean, you will easily find thousands of marine fish species. Kenya, Tanzania, and Zanzibar are popular fishing destinations where you can catch several species of tuna, sharks, mackerel, marlin, barracuda, and more. The best time for deep-sea fishing off these coasts is between October and April. If you’re interested in viewing marine wildlife, Mozambique has a marine conservation area where you can enjoy manta rays, sharks, eels, and a variety of reef fish. October to March is the best time for snorkeling in Mozambique.
+<br>
+<br><br></div>
+<div class="w3-pale-yellow w3-center"><h2><b>
+Snakes in Africa</h2></div></b>
+<div class=" w3-container "><center>
+<img src="https://i.pinimg.com/originals/d0/54/c9/d054c9c6e27db7b5e85a8ceb1a9bdee6.jpg" width=250px" height="210">
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Aroura_House_Snake_1.JPG" width="250px" height="210">
+<img src="https://i.pinimg.com/originals/83/10/8f/83108fbba7446694d6eb8517793c7f75.jpg" width="250px" height="210">
+<img src="https://2.bp.blogspot.com/-fwBZazcUmf8/WUmEsCS906I/AAAAAAAAdkU/qwW8DlI34DQmOHbudu-Z79QHYgyEviKLACLcBGAs/s1600/African%2BBusan%2BAfrican%2BBush%2BViper.jpg" width="250px" height="210">
+<img src="https://photos.willbl.com/wp-content/uploads/WBL-Costa-Rica-Viper-110603165127.jpg" width="250px" height="210">
+ 
+</center>
+<br>
+
+A wide variety of snakes call Africa home. There are snakes in every type of habitat, from tropical, to desert, to aquatic. You’ll find both venomous and non-venomous snakes in Africa. Venomous snakes in Africa have three different types of venom- Cytotoxic, neurotoxic, and haemotoxic. Cytotoxins kill cells. They destroy the cells in soft tissue and internal organs. Neurotoxins affect neural pathways and can cause paralysis. Haemotixins destroy red blood cells and prevent blood from clotting.<br><br>
+<i>Some of the deadliest snakes in Africa include:</i><br>
+<br>
+<b>Black Mamba:</b> Africa’s longest snake, and one of the fastest snakes in the world. Black mambas are found in Southern and Eastern Africa. They live in savannahs and rocky hills.
+<br><b>Boomslang:</b> One of the most venomous snakes in the world. Native to the savannahs of sub-Saharan Africa.
+<br><b>Bush Viper:</b> Arboreal snakes found in the tropical rainforests of Western and Central Africa.
+<br><b>Cape Cobra:</b> Only found in Southern Africa. They live in a variety of habitats, like grasslands, savannahs, and deserts.
+<br><b>West African Carpet Viper: </b>Endemic to the dry savannahs of West Africa. It is the most dangerous snake in Africa.
+<br><b>Eastern Green Mamba:</b> Arboreal snakes native to the coastal regions of Southern and East Africa. They can be found in the dense vegetation of tropical rainforests.
+<br><b>Puff Adder:</b> Found throughout sub-Saharan Africa, typically in open forests, grasslands, and rocky savannahs.
+<br><br>
+A few nonvenomous snakes native to Africa:
+<br>
+<b>Ball Python: </b>Live north of the equator in Western and Central Africa. They are found near water in grasslands and forests.
+<br><b>Brown House Snake:</b> Distributed throughout Southern Africa. These snakes are popular as pets.
+<br><b>Spotted Bush Snake:</b> Found in a variety of habitats close to water sources. They have a large range, from Southern Africa northward into Central Africa, from east to west coasts.
+<br><b>African Rock Python: </b>The largest snake in Africa. Native to sub-Saharan Africa, in a range of habitats near permanent bodies of water.<br><br>
+</div><br></div><br>
+
+<div class="w3-right w3-hover-button">
+<a href="C:\Users\RAJAL MISTRY\OneDrive\Documents\project1.html"><button class="button w3-button w3-red w3-grayscale w3-section w3-right" type="submit">BACK</button></a>
+ 
+</div><br><br><br><br>
+ <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-card w3-black w3-padding-84" style="max-width:1200px" id="contact">
+   <font color="white"> <br><h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom ">
+        <i class="fa fa-map-marker" style="width:30px"></i> Maharashtra,India<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div><br>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-red w3-section w3-right" type="submit"><a href="C:\Users\RAJAL MISTRY\OneDrive\Documents\p3.html">SEND</a></button>
+        </form>
+      </div>
+    </div>
+  </div>
+<br><br><br>
+<div class="w3-container w3-card w3-padding-50 w3-center w3-pale-green  w3-large" id="External links">
+<h1><font face="amazone bt"><p align="left">Let's find more about Africa's wildlife <br><b>External links...</h1></b><font color="green"><h3><p align="left">
+<font class="w3-hover-text-blue"><a href="https://a-z-animals.com/animals/location/africa/">All about Africa</a><br></font>
+<font class="w3-hover-text-red"><a href="https://www.bing.com/search?q=african+wildlife&cvid=d395d65a085144ababd03b829f16d762&aqs=edge.2.69i57j46j69i59j46l3j69i60l3.2568j0j8&FORM=ANNTA0&PC=LCTS">10 SURPRISING FACTS ABOUT AFRICAN WILDLIFE</a></font>
+<br>
+<font class="w3-hover-text-yellow"><a href="https://www.bing.com/search?q=african+wildlife&cvid=d395d65a085144ababd03b829f16d762&aqs=edge.2.69i57j46j69i59j46l3j69i60l3.2568j0j8&FORM=ANNTA0&PC=LCTS">Fauna of Africa</a></font></div>
+</p></p></h4></font>
+</body>
+<!-- Footer -->
+<footer class="w3-container w3-padding-50 w3-center w3-opacity w3-light-grey w3-xlarge"><br>
+ <font class="w3-hover-text-blue"> <i class="fa fa-facebook-official w3-hover-opacity"></i></font>
+ <font class="w3-hover-text-purple"> <i class="fa fa-instagram w3-hover-opacity"></i></font>
+ <font class="w3-hover-text-yellow"> <i class="fa fa-snapchat w3-hover-opacity"></i></font>
+ <font class="w3-hover-text-red"> <i class="fa fa-pinterest-p w3-hover-opacity"></i></font>
+ <font class="w3-hover-text-blue"> <i class="fa fa-twitter w3-hover-opacity"></i></font>
+ <font class="w3-hover-text-green"> <i class="fa fa-linkedin w3-hover-opacity"></i></font><font class="w3-hover-text-red">
+  <p class="w3-medium"><u>Powered by African Wildlife</u></p>
+</footer> </font></font>
+
+</html>
+
+_________________________________________________________________________________________________________________________________________________________
+
+<html>
+<head>
+<title>African Wildlife</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body bgcolor="powderblue"><br>
+<div class="w3-container  w3-center">
+<h1><b>THANK YOU FOR YOUR FEEDBACK!</b></h1><br><br>
+<img src="https://wallpapercave.com/wp/wp5403541.jpg" height="500" width="700" >
+</div>
+</body>
+</html>
